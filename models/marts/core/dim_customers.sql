@@ -32,7 +32,7 @@ final as (
         customers.customer_id,
         customers.customer_first_name,
         customers.customer_last_name,
-        customers.full_name
+        customers.full_name,
         customer_orders.first_order_date,
         customer_orders.most_recent_order_date,
         coalesce(customer_orders.number_of_orders, 0) as number_of_orders,

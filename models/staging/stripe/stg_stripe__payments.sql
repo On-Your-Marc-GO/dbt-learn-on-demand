@@ -12,7 +12,7 @@ transformed as (
 
         id as payment_id,
         orderid as order_id,
-        created as payment_created_at
+        created as payment_created_at,
         paymentmethod as payment_method,
         status as payment_status,
 
